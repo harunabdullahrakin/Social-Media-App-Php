@@ -1,14 +1,14 @@
 <?php
 
-$user = 'amarworld';
+$user = 'username';
 
-$password = 'rakingta6';
+$password = 'password';
 
 $db = 'amarworld_main';
 
-$host = 'mysql-amarworld.alwaysdata.net';
+$host = 'host ip';
 
-$port = 3306;
+$port = 'port';
 
 $conn = mysqli_connect($host, $user, $password, $db,$port) ;
 
