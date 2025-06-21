@@ -1,6 +1,4 @@
-# AMARWORLD — Next-Gen Social Platform in Pure PHP
-
-![Cover](https://via.placeholder.com/1200x400.png?text=AmarWorld+%7C+Social+Platform)
+# AMARWORLD — Social Platform in Pure PHP
 
 [![Live Demo](https://img.shields.io/badge/Live_Site-amarworld.me-0b3d91?style=for-the-badge)](https://amarworld.me)
 [![Built in PHP](https://img.shields.io/badge/Stack-Pure%20PHP%20%2B%20MySQL-informational?style=for-the-badge)](https://php.net)
