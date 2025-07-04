@@ -3,7 +3,8 @@
 
 // Adds Variables
 require($_SERVER['DOCUMENT_ROOT'] . 'require/variables.php');
-
+include(SMTP);
+    
 session_start();
 
 include('../../require/config.php');
@@ -199,7 +200,7 @@ function mailer($sending_address, $password, $user_name, $full_name)
     
     //Set SMTP host name                          
     
-    $mail->Host = "smtp-pulse.com";
+    $mail->Host = ‎$smtphost;
     
     //Set this to true if SMTP host requires authentication to send email
     
@@ -207,9 +208,9 @@ function mailer($sending_address, $password, $user_name, $full_name)
 
     //Provide username and password     
 
-    $mail->Username = "mrbeak123@gmail.com";                 
+    $mail->Username = $smtp_username;                 
 
-    $mail->Password = "FSYt9Qija9HWfdW";                           
+    $mail->Password = $smtp_password;                           
 
     //If SMTP requires TLS encryption then set it
 
@@ -219,9 +220,9 @@ function mailer($sending_address, $password, $user_name, $full_name)
 
     $mail->Port = 587;                                   
 
-    $mail->From = "support@amarworld.me";
+    $mail->From = $mailfrom;
 
-    $mail->FromName = "Amar World";
+    $mail->FromName = $mailfromName;
 
     $mail->addAddress($sending_address, $full_name);
 
