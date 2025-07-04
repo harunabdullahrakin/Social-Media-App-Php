@@ -8,9 +8,9 @@ $smtp_password = 'password';
 
 // Mailer's info
 
-$mailfrom = "";
+$mailfrom = ""; // support@amarworld.me
 
-$mailfromName ="";
+$mailfromName =""; // Amar world
 
 
 
