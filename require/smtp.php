@@ -4,7 +4,7 @@ $smtphost = 'host';
 
 $smtp_username = "smtp_username";
 
-$password = 'password';
+$smtp_password = 'password';
 
 // Mailer's info
 
