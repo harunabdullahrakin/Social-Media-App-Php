@@ -1,0 +1,152 @@
+.post {
+    width: 112%; /* KEEP your original width */
+    max-width: none; /* Ensure no max-width restricts it */
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    overflow: visible; /* Allow container to shrink/grow */
+    height: auto; /* Let height adjust */
+}
+
+.post-img {
+    width: 100%;  /* Fill the full width of the post */
+    height: auto; /* Keep natural height, shrink if image is small */
+    display: block;
+    border-radius: 10px;
+}
+
+.info {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.info .username {
+    width: auto;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: #252323;
+}
+
+.info .options {
+    height: 10px;
+    cursor: pointer;
+}
+
+.info .user {
+    display: flex;
+    align-items: center;
+}
+
+.info .profile-pic {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 80%);
+}
+
+
+
+.post-content {
+    width: 100%;
+    padding: 20px;
+}
+
+.reactions {
+    margin-top: -1em;
+    font-size: 10px;
+}
+
+.description {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.description span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.post-time {
+    color: #0c0c0c;
+    font-size: 10px;
+    margin: 0 0 10;
+}
+
+.comments-section {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #F5F5F5;
+    background: #F5F5F5;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.comments-section .icon {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.comment-box {
+    width: 80%;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    background: #F5F5F5;
+    margin-bottom: 10px;
+}
+
+.comment-button,
+.logout-btn,
+.fallow-btn {
+    width: 70px;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(0, 162, 255);
+    opacity: 0.8;
+}
+
+.comment-btn {
+    font-weight: bold;
+    padding: 5px;
+    opacity: 1;
+    font-size: 12px;
+}
+
+.reactions-wrapper {
+    width: 100%;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    margin-top: -1em;
+    font-size: 10px;
+    margin-bottom: -10px;
+}
+
+.reactions-wrapper .icon {
+    height: 25px;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.captiontext {
+    font-weight: 300 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+

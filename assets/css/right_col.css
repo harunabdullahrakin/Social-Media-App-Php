@@ -1,0 +1,158 @@
+
+.right-col{
+
+    padding: 20px;
+}
+
+.profile_card, .suggestion_card{
+
+    width: fit-content;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-bottom: 10px;
+
+}
+
+.profile_card .profile-pic{
+
+    flex: 0 0 auto;
+
+    padding: 0;
+
+    background: none;
+
+    width: 60px;
+
+    height: 60px;
+
+    margin-right: 10px;
+}
+
+.profile_card .profile-pic img{
+
+    border: none;
+
+    width: 70px;
+    
+    height: 70px;
+}
+
+.profile_card .profile_user{
+
+    font-weight: 500px;
+
+    font-size: 16px;
+
+    color: #262626;
+
+    text-transform: capitalize;
+
+    margin-bottom: 0;
+}
+
+.profile_card .sub-text{
+
+    color: #939393;
+
+    font-size: 12px;
+
+    font-weight: 500;
+
+    margin-top: 1px;
+
+    margin-bottom: 0;
+}
+
+.logout-btn, .fallow-btn{
+
+    opacity: 1;
+
+    font-weight: 700;
+
+    font-size: 12px;
+
+    color: #55B7F7;
+}
+
+.suggestion_card .suggestions-pic{
+
+    flex: 0 0 auto;
+
+    padding: 0;
+
+    background: none;
+
+    width: 50px;
+
+    height: 50px;
+
+    margin-right: 10px;
+}
+
+
+.suggestion_card .suggestions-pic img{
+
+    border: none;
+
+    width: 40px;
+
+    height: 40px;
+
+    border-radius: 50%;
+}
+
+.suggesting{
+
+    font-size: 14px;
+
+    color: #939393;
+
+    font-weight: 700;
+
+    margin-top: 20px;
+}
+
+
+.suggestion_card .username{
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+    color: #262626;
+
+    text-transform: capitalize;
+
+    margin: 0;
+}
+
+.suggestion_card .sub-text{
+
+    color: #939393;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    margin-top: 3px;
+
+    margin-bottom: 0;
+}
+
+.fallow-btn{
+
+    opacity: 2;
+
+    font-weight: 700;
+
+    font-size: 12px;
+
+    color: #55B7F7;
+
+}
+
