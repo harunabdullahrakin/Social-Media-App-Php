@@ -61,8 +61,8 @@ Think **Instagram + Facebook** in a clean, modern UI with complete backend logic
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/amarworld.git
-cd amarworld
+git clone https://github.com/harunabdullahrakin/Social-Media-App-Php.git
+
 ```
 
 ---
