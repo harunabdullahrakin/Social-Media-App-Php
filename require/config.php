@@ -1,12 +1,12 @@
 <?php
 
-$user = 'amarworld';
+$user = 'username';
 
-$password = 'rakingta6';
+$password = 'password';
 
-$db = 'amarworld_main';
+$db = 'database_name';
 
-$host = 'mysql-amarworld.alwaysdata.net';
+$host = 'host';
 
 $port = 3306;
 
