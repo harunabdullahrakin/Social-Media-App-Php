@@ -2,7 +2,7 @@
 
 $smtphost = 'host';
 
-$username = "smtp_username";
+$smtp_username = "smtp_username";
 
 $password = 'password';
 
