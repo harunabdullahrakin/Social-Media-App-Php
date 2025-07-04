@@ -77,12 +77,12 @@ cd amarworld
 
 ### 3. Import MySQL Database
 
-> File location: `config/sql.sql`
+> File location: `config/mysql.sql`
 
 **Using phpMyAdmin:**
 1. Login to phpMyAdmin  
 2. Create a database  
-3. Import `amarworld.sql`
+3. Import `mysql.sql`
 
 ---
 
