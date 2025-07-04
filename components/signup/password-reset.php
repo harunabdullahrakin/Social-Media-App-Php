@@ -3,7 +3,7 @@
 // Adds Variables
 require($_SERVER['DOCUMENT_ROOT'] . 'require/variables.php');
 
-
+include(SMTP);
 include(DB);
 
 use PHPMailer\PHPMailer\PHPMailer;
