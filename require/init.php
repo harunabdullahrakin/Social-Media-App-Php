@@ -43,5 +43,4 @@ function timeAgo($datetime, $full = false) {
     return $string ? implode(', ', $string) . ' ago' : 'just now';
 }
 
-// Example usage:
 ?>
