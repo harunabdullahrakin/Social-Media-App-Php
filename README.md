@@ -77,12 +77,7 @@ cd amarworld
 
 ### 3. Import MySQL Database
 
-> File location: `db/amarworld.sql`
-
-**Using CLI:**
-```bash
-mysql -u your_user -p your_database < db/amarworld.sql
-```
+> File location: `config/sql.sql`
 
 **Using phpMyAdmin:**
 1. Login to phpMyAdmin  
@@ -132,48 +127,8 @@ server {
 
 ---
 
-## 🧠 MySQL Structure Preview
 
-> Included in `db/amarworld.sql`
-
-```sql
-CREATE TABLE users (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  username VARCHAR(50),
-  email VARCHAR(100),
-  password TEXT,
-  avatar TEXT,
-  bio TEXT,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE posts (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  user_id INT,
-  content TEXT,
-  media TEXT,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE comments (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  post_id INT,
-  user_id INT,
-  comment TEXT,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE messages (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  sender_id INT,
-  receiver_id INT,
-  message TEXT,
-  seen BOOLEAN DEFAULT FALSE,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
--- (More tables in the full .sql file)
-```
+  
 
 ---
 
